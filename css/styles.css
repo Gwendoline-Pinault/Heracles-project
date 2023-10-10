@@ -314,3 +314,59 @@ body {
         padding: 1.5rem 2rem;
     }
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 0.8rem;
+    }
+    .header {
+        left: 8px;
+    }
+
+    .nav {
+        width: 100%;
+    }
+    .nav-item {
+        font-size: 1rem;
+    }
+
+    .page {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .content-focus {
+        flex-direction: column;
+    }
+
+    .content-titles {
+        width: 100%;
+    }
+
+    .content-title--sub {
+        font-size: 1.9rem;
+    }
+
+    .content-title {
+        text-align: center;
+    }
+
+    .content-picture {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-footer {
+        margin: 1.5rem 0.5rem;
+        display: flex;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 1rem 1.5rem;
+    }
+}
